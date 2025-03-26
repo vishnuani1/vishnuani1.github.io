@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishnu | DevOps Engineer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #121212;
+            color: #fff;
+            text-align: center;
+            transition: 0.3s;
+        }
+        header {
+            background: #1e1e1e;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            margin: 40px 0;
+            padding: 20px;
+            background: #222;
+            border-radius: 10px;
+        }
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            background: #ff9800;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #e68900;
+        }
+        .toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #ff9800;
+            padding: 10px;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .light-mode {
+            background: #f5f5f5;
+            color: #222;
+        }
+        .light-mode .section {
+            background: #fff;
+            color: #000;
+        }
+        .light-mode header {
+            background: #ddd;
+            color: #222;
+        }
+    </style>
+</head>
+<body>
+
+    <button class="toggle" onclick="toggleTheme()">🌙 Dark Mode</button>
+
+    <header>
+        Vishnu Anil | DevOps Engineer
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>About Me</h2>
+            <p>Hi, I'm Vishnu, a DevOps Engineer passionate about automation, cloud infrastructure, and CI/CD pipelines. I specialize in Azure, GitHub Actions, and Kubernetes.</p>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <p>✔ DevOps & CI/CD | ✔ Azure Cloud | ✔ Kubernetes | ✔ GitHub Actions | ✔ Terraform | ✔ Linux & Windows Servers | ✔ Automation</p>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <p>📌 **Zero-Downtime Deployment**: Implemented in Azure App Services</p>
+            <p>📌 **GitHub Actions Workflows**: Automated CI/CD with self-hosted runners</p>
+            <p>📌 **Cloud Cost Optimization**: Scaled down non-prod environments after hours</p>
+        </div>
+
+        <div class="section">
+            <h2>Contact</h2>
+            <p>📧 Email: <a href="mailto:anil.vishnu@outlook.com" style="color: #ff9800;">anil.vishnu@outlook.com</a></p>
+            <p>🔗 GitHub: <a href="https://github.com/vishnuani1" target="_blank" style="color: #ff9800;">github.com/vishnuani1</a></p>
+        </div>
+    </div>
+
+    <script>
+        function toggleTheme() {
+            document.body.classList.toggle('light-mode');
+        }
+    </script>
+
+</body>
+</html>
