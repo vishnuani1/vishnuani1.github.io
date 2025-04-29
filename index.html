@@ -3,6 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishnu Anil - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .dark-mode {
+            background-color: #333;
+            color: #f4f4f4;
+        }
+        header {
+            background: #0073e6;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .profile {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .profile h1 {
+            margin: 0.5rem 0;
+        }
+        .skills, .experience, .education, .certifications {
+            margin: 2rem 0;
+        }
+        .skills ul, .experience ul, .education ul, .certifications ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li, .experience li, .education li, .certifications li {
+            margin: 0.5rem 0;
+        }
+        .icon {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            margin-right: 0.5rem;
+        }
+        .toggle-button {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            background: #0073e6;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button class="toggle-button" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    <header>
+        <h1><a href="https://www.linkedin.com/in/vishnu-anil-90521b192/">Vishnu Anil</a></h1>
+        <p>DevOps & Cloud Specialist</p>
+        <p><a href="mailto:anil.vishnu@outlook.com">anil.vishnu@outlook.com</a> | <a href="https://wa.me/919061656936">9061656936</a></p>
+        <p><a href="https://vishnuani1.github.io" target="_blank">vishnuani1.github.io</a></p>
+    </header>
+    <div class="container">
+        <div class="profile">
+<!--             <img src="profile.jpg" alt="Vishnu Anil"> -->
+            <h1>Vishnu Anil</h1>
+            <p>DevOps Engineer with 1.5 years of dedicated experience in DevOps and over 4 years of total industry experience, including freelance web development. Specialized in automating and streamlining operations, currently in the maritime software domain.</p>
+        </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Git" class="icon">Git, GitHub, Bitbucket, Azure Repos</li>
+                <li><img src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png" alt="GitHub Actions" class="icon">GitHub Actions, Azure DevOps</li>
+                <li><img src="https://cdn-icons-png.flaticon.com/512/919/919827.png" alt="PowerShell" class="icon">PowerShell, Bash, YAML</li>
+                <li><img src="https://cdn-icons-png.flaticon.com/512/919/919830.png" alt="Terraform" class="icon">Terraform, Bicep</li>
+                <li><img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="Azure" class="icon">Azure, AWS, GCP</li>
+                <li><img src="https://cdn-icons-png.flaticon.com/512/919/919853.png" alt="Docker" class="icon">Docker, Kubernetes</li>
+                <li><img src="https://cdn-icons-png.flaticon.com/512/919/919847.png" alt="Monitoring" class="icon">Azure Monitor, Serilog, Seq</li>
+                <li><img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt="SonarQube" class="icon">SonarQube</li>
+                <li><img src="https://cdn-icons-png.flaticon.com/512/919/919841.png" alt="PuTTY" class="icon">PuTTY, OpenSSH</li>
+                <li><img src="https://cdn-icons-png.flaticon.com/512/919/919842.png" alt="Chocolatey" class="icon">Chocolatey</li>
+                <li><img src="https://cdn-icons-png.flaticon.com/512/919/919843.png" alt="Asana" class="icon">Asana</li>
+            </ul>
+        </div>
+        <div class="experience">
+            <h2>Professional Experience</h2>
+            <ul>
+                <li>
+                    <h3>DevSecOps Engineer L2</h3>
+                    <p>ProdEngines Pvt Ltd (On behalf of SpeeHive Solutions FZCO) | 09/2023 - Present | Palakkad, Kerala</p>
+                    <ul>
+                        <li>Automated CI/CD Pipelines: Migrated to GitHub Actions, fully automating deployment processes.</li>
+                        <li>Zero-Downtime Deployments: Implemented strategies ensuring uninterrupted service during updates.</li>
+                        <li>Easy Rollback Mechanisms: Designed quick recovery processes for failed deployments.</li>
+                        <li>Cost Optimization: Reduced operational costs by 40% through automatic resource scaledown after hours.</li>
+                        <li>Code Analysis Integration: Integrated SonarQube in CI/CD pipelines to enforce code quality and security.</li>
+                        <li>Team Notifications: Developed Power Automate flow to notify teams via MS Teams after deployments.</li>
+                        <li>Error Log Monitoring: Implemented Seq server with dashboards for real-time log monitoring.</li>
+                        <li>IaC Adoption: Automated cloud infrastructure management using Terraform and Bicep.</li>
+                        <li>Advanced Networking Setup: Configured Virtual Networks, Subnets, NAT Gateways, NSGs, and Route Tables for secure communication.</li>
+                        <li>Version Control & Branch Management: Implemented GitHub flow and rules to streamline branching and release management.</li>
+                        <li>Migration to Own VPC: Migrated from Azure App Service to a custom VPC with VMs and Application Gateways for enhanced security and lower costs.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <h3>Master of Computer Applications (M.C.A.)</h3>
+                    <p>Nehru Institute of Information Technology & Management | 10/2021 - 09/2023 | Coimbatore, Tamil Nadu</p>
+                </li>
+                <li>
+                    <h3>Bachelor of Science in Computer Science (B.Sc. C.S.)</h3>
+                    <p>IHRD College of Applied Science | 06/2017 - 03/2020 | Palakkad, Kerala</p>
+                </li>
+            </ul>
+        </div>
+        <div class="certifications">
+            <h2>Certifications & Badges</h2>
+            <ul>
+                <li><a href="https://www.mygreatlearning.com/certificate/LQSTGHMC" target="_blank">Microsoft Azure Essentials - Great Learning</a> | 11/2023</li>
+                <li><a href="https://www.cloudskillsboost.google/public_profiles/da4a0748-2316-437b-b225-61f0c41b7b9e" target="_blank">Cloud Skill Boost Badges - Google Cloud</a> | 11/2023</li>
+                <li><a href="https://google.accredible.com/fb9baf46-9875-41af-ad6d-c24fe2d7ddb3#acc.aUXZRuxS" target="_blank">Associate Cloud Engineer - Google Cloud</a> | 06/2023</li>
+                <li><a href="https://upgrad.certificate.givemycertificate.com/c/fbc09d39-a7d9-47a0-8734-59654fa1d009" target="_blank">React.js for Beginners - Upgrad</a> | 12/2022</li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vishnu | DevOps Engineer</title>
     <style>
         body {
@@ -122,3 +275,4 @@
 
 </body>
 </html>
+ -->
